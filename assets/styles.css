@@ -1,0 +1,58 @@
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+
+html,body{font-family:Verdana,sans-serif;font-size:24px;line-height:1.5}html{overflow-x:hidden}
+
+a{text-decoration: none !important;}
+.click{pointer-events: none;}
+.bar{width:100%;overflow:hidden}.center .bar{display:inline-block;width:auto}
+.bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0}
+
+
+.top{top:0;position:fixed;width:100%;z-index:1}
+.left-align{text-align:left}
+.right-align{text-align:right}
+.justify{text-align:justify}
+.center{text-align:center}
+
+
+.margin{margin:16px}
+.margin-top{margin-top:16px}
+.margin-bottom{margin-bottom:16px}
+.large{font-size:24px}
+.big{font-size:36px}
+.huge{font-size:48px}
+
+.padding-small{padding:4px 8px}
+.padding{padding:8px 16px}
+.padding-large{padding:12px 24px}
+
+.padding-32{padding-top:32px;padding-bottom:32px}
+.padding-64{padding-top:64px;padding-bottom:64px}
+
+.opacity,.hover-opacity:hover{opacity:0.60}
+.opacity-off,.hover-opacity-off:hover{opacity:1}
+
+.button:hover{color:black;background-color:lightgray}
+.hover-none:hover{box-shadow:none}
+
+
+
+/* Colors */
+.lightblue{color:black;background-color:lightblue;}
+.white{color:black;background-color:white;}
+.red{color:black;background-color:red;}
+.black{color:black;background-color:black}
+
+/* Animation */
+
+.marquee { 
+  overflow: hidden;
+  position: relative;
+  animation: MarqueeLeft linear 10s infinite;
+}
+
+@keyframes MarqueeLeft 
+{
+  0% { right: -100% }
+  100% { right: 100% }
+}
